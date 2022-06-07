@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "629ce20fbd8295e37d358c6f"
+  },
+  "category_id": {
+    "$oid": "629cdb4fbd8295e37d358c62"
+  },
+  "product_id": {
+    "$oid": "629cd998bd8295e37d358c5f"
+  }
+},{
+  "_id": {
+    "$oid": "629cebeabd8295e37d358cec"
+  },
+  "category_id": {
+    "$oid": "629ce8e5bd8295e37d358cda"
+  },
+  "product_id": {
+    "$oid": "629dfb7591d7cb54c89607a0"
+  }
+},{
+  "_id": {
+    "$oid": "629dceae2830fdd5b52eedb3"
+  },
+  "category_id": {
+    "$oid": "629ce8a0bd8295e37d358cd8"
+  },
+  "product_id": {
+    "$oid": "629dfb7591d7cb54c89607a0"
+  }
+},{
+  "_id": {
+    "$oid": "629dceee2830fdd5b52eedb8"
+  },
+  "category_id": {
+    "$oid": "629ce4d2bd8295e37d358ca7"
+  },
+  "product_id": {
+    "$oid": "629dfb7591d7cb54c89607a0"
+  }
+},{
+  "_id": {
+    "$oid": "629dcf542830fdd5b52eedcb"
+  },
+  "category_id": {
+    "$oid": "629ce451bd8295e37d358c9e"
+  },
+  "product_id": {
+    "$oid": "629cd998bd8295e37d358c5f"
+  }
+},{
+  "_id": {
+    "$oid": "629dcf772830fdd5b52eedd0"
+  },
+  "category_id": {
+    "$oid": "629ce4d2bd8295e37d358ca7"
+  },
+  "product_id": {
+    "$oid": "629cd998bd8295e37d358c5f"
+  }
+},{
+  "_id": {
+    "$oid": "629f38f191d7cb54c89607d6"
+  },
+  "product_id": {
+    "$oid": "629f385b91d7cb54c89607cf"
+  },
+  "category_id": {
+    "$oid": "629f372991d7cb54c89607ca"
+  }
+},{
+  "_id": {
+    "$oid": "629f707691d7cb54c8960822"
+  },
+  "product_id": {
+    "$oid": "629f385b91d7cb54c89607cf"
+  },
+  "category_id": {
+    "$oid": "629f6f944216158d16f2c77c"
+  }
+},{
+  "_id": {
+    "$oid": "629f721f4216158d16f2c786"
+  },
+  "product_id": {
+    "$oid": "629f385b91d7cb54c89607cf"
+  },
+  "category_id": {
+    "$oid": "629f6fbf4216158d16f2c77e"
+  }
+},{
+  "_id": {
+    "$oid": "629f8671ceb435285493dd54"
+  },
+  "product_id": {
+    "$oid": "629f84dd86449a3cd3845024"
+  },
+  "category_id": {
+    "$oid": "629f372991d7cb54c89607ca"
+  }
+},{
+  "_id": {
+    "$oid": "629f86d286449a3cd3845029"
+  },
+  "product_id": {
+    "$oid": "629f84dd86449a3cd3845024"
+  },
+  "category_id": {
+    "$oid": "629f6f944216158d16f2c77c"
+  }
+},{
+  "_id": {
+    "$oid": "629f871b86449a3cd384502d"
+  },
+  "product_id": {
+    "$oid": "629f84dd86449a3cd3845024"
+  },
+  "category_id": {
+    "$oid": "629f870186449a3cd384502b"
+  }
+}]

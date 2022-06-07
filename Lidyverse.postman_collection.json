@@ -1,0 +1,372 @@
+{
+	"info": {
+		"_postman_id": "fed12be5-e8cc-4b02-ba79-a9e09ad9e91a",
+		"name": "Lidyverse",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "category",
+			"item": [
+				{
+					"name": "category/update/:id",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Edi Büdü\",\r\n    \"age\": 13\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/category/update/629c81239c4324fcd4554078",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"category",
+								"update",
+								"629c81239c4324fcd4554078"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "category/delete/:id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/category/delete/629f37b391d7cb54c89607cb",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"category",
+								"delete",
+								"629f37b391d7cb54c89607cb"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "category/get/:id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/category/get/629cdb4fbd8295e37d358c62",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"category",
+								"get",
+								"629cdb4fbd8295e37d358c62"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "category/create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"tennis shoes\",\r\n    \"parent_id\": \"629f6f944216158d16f2c77c\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/category/create",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"category",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "category/get-all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/category/get-all",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"category",
+								"get-all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "product",
+			"item": [
+				{
+					"name": "product/get-all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/get-all",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"get-all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "product/create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"adidas-kadın-tenis-ayakkabısı-sarı\",\r\n    \"description\": \"629f6fbf4216158d16f2c77e\",\r\n    \"features\":\"{\\\"color\\\": \\\"sarı\\\", \\\"size\\\": \\\"38\\\",\\\"material\\\": \\\"%100 rubber\\\",\\\"gender\\\": \\\"female\\\"}\",\r\n    \"status\":12\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/product/create",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "product/get/:id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/get/629f385b91d7cb54c89607cf",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"get",
+								"629f385b91d7cb54c89607cf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "product/delete/:id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/delete/629ceac2bd8295e37d358ce9",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"delete",
+								"629ceac2bd8295e37d358ce9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "product/update/:id",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\":\"serena williams öneriyor\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/product/update/629f84dd86449a3cd3845024",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"update",
+								"629f84dd86449a3cd3845024"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "prod2cat",
+			"item": [
+				{
+					"name": "prod2cat/get-all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/prod2cat/get-all",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"prod2cat",
+								"get-all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "prod2cat/create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"product_id\": \"629f84dd86449a3cd3845024\",\r\n    \"category_id\": \"629f870186449a3cd384502b\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/prod2cat/create",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"prod2cat",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "prod2cat/get/:id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/prod2cat/get/629ce20fbd8295e37d358c6f",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"prod2cat",
+								"get",
+								"629ce20fbd8295e37d358c6f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "prod2cat/delete/:id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/prod2cat/delete/629ceac2bd8295e37d358ce9",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"prod2cat",
+								"delete",
+								"629ceac2bd8295e37d358ce9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "prod2cat/update/:id",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Edi Büdü\",\r\n    \"age\": 13\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/prod2cat/update/629cd998bd8295e37d358c5f",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"prod2cat",
+								"update",
+								"629cd998bd8295e37d358c5f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

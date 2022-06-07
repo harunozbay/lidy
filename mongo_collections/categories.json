@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "629cdb4fbd8295e37d358c62"
+  },
+  "name": "shirts",
+  "parent_id": {
+    "$oid": "629ce451bd8295e37d358c9e"
+  }
+},{
+  "_id": {
+    "$oid": "629ce451bd8295e37d358c9e"
+  },
+  "name": "tops",
+  "parent_id": {
+    "$oid": "629ce4d2bd8295e37d358ca7"
+  }
+},{
+  "_id": {
+    "$oid": "629ce4d2bd8295e37d358ca7"
+  },
+  "name": "women's clothing"
+},{
+  "_id": {
+    "$oid": "629ce8a0bd8295e37d358cd8"
+  },
+  "name": "bottoms",
+  "parent_id": {
+    "$oid": "629ce4d2bd8295e37d358ca7"
+  }
+},{
+  "_id": {
+    "$oid": "629ce8e5bd8295e37d358cda"
+  },
+  "name": "pants",
+  "parent_id": {
+    "$oid": "629ce8a0bd8295e37d358cd8"
+  }
+},{
+  "_id": {
+    "$oid": "629f372991d7cb54c89607ca"
+  },
+  "name": "women's shoes"
+},{
+  "_id": {
+    "$oid": "629f6f944216158d16f2c77c"
+  },
+  "name": "sport shoes",
+  "parent_id": {
+    "$oid": "629f372991d7cb54c89607ca"
+  }
+},{
+  "_id": {
+    "$oid": "629f6fbf4216158d16f2c77e"
+  },
+  "name": "running shoes",
+  "parent_id": {
+    "$oid": "629f6f944216158d16f2c77c"
+  }
+},{
+  "_id": {
+    "$oid": "629f870186449a3cd384502b"
+  },
+  "name": "tennis shoes",
+  "parent_id": {
+    "$oid": "629f6f944216158d16f2c77c"
+  }
+}]

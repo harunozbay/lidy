@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "629cd998bd8295e37d358c5f"
+  },
+  "description": "efil efil",
+  "features": "{\"color\": \"green\",\n \"size\": \"xl\",\n \"material\": \"%100 cotton\",\n \"gender\": \"female\"}",
+  "name": "zara-kadın-gömlek-yesil",
+  "status": 4
+},{
+  "_id": {
+    "$oid": "629dfb7591d7cb54c89607a0"
+  },
+  "description": "çok rahat",
+  "features": "{\"color\": \"black\",\n \"size\": \"sm\",\n \"material\": \"%50 cotton,%50 polyester\",\n \"gender\": \"female\"}",
+  "name": "mango-kadın-pantolon-siyah",
+  "status": 12
+},{
+  "_id": {
+    "$oid": "629f385b91d7cb54c89607cf"
+  },
+  "description": "havada uçacaksınız",
+  "features": "{\"color\": \"white\",\n \"size\": \"37\",\n \"material\": \"%50 leather,%50 polyester\",\n \"gender\": \"female\"}",
+  "name": "nike-kadın-yürüyüş-ayakkabı-white",
+  "status": 14
+},{
+  "_id": {
+    "$oid": "629f84dd86449a3cd3845024"
+  },
+  "name": "adidas-kadın-tenis-ayakkabısı-sarı",
+  "description": "serena williams öneriyor",
+  "features": "{\"color\": \"sarı\", \"size\": \"38\",\"material\": \"%100 rubber\",\"gender\": \"female\"}",
+  "status": 5
+}]
